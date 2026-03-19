@@ -1,6 +1,6 @@
-# Automatización CRUD de API con Screenplay y Serenity Rest
+# Automatización CRUD de API con Screenplay y Serenity Rest - Reservas Sofka
 
-Este proyecto valida el ciclo completo de CRUD (POST, GET, PUT, DELETE) para la entidad de Ciudades (`Cities`) en el servicio `locations-service`.
+Este proyecto valida el ciclo completo de CRUD (POST, GET, PUT, DELETE) para la entidad de Ciudades (`Cities`) en el servicio `locations-service` de la aplicación **[Reservas Sofka](https://github.com/Sherman97/reservasSofka)**.
 
 ## 📋 Prerrequisitos
 
