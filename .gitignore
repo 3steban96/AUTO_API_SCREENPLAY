@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+.vscode/
+bin/
+build/
+target/
+# Serenity BDD Report Exception
+# Un-ignore the path to index.html
+!target/
+target/*
+!target/site/
+target/site/*
+!target/site/serenity/
+target/site/serenity/*
+!target/site/serenity/index.html
