@@ -38,7 +38,7 @@ public class CitiesCrudStepDefinitions {
     public void theApiClientIsReadyToManageCities() {
         theActorCalled("API Client").whoCan(CallAnApi.at(apiUrl));
         theActorInTheSpotlight().attemptsTo(
-                com.reservassofka.crud.tasks.GetAuthToken.withCredentials("admin@sofka.com.co", "password123")
+                com.reservassofka.crud.tasks.GetAuthToken.withCredentials("admin@sofka.com.co", "password1234")
         );
     }
 

@@ -30,6 +30,10 @@ test {
     testLogging.showStandardStreams = true
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
 gradle.startParameter.continueOnFailure = true
 
 test.finalizedBy(aggregate)
